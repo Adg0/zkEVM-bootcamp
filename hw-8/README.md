@@ -5,11 +5,11 @@
 1. find the positive integer root, i.e $p(a) = 0$ (hint $a < 7$)
 	- using group factoring method:
 
-	$ x^2(x - 5) + -4(x - 5) $
+	$$x^2(x - 5) + -4(x - 5)$$
 
-	$ (x - 5)(x^2 - 4) $
+	$$(x - 5)(x^2 - 4)$$
 
-	$ (x - 5)(x - 2)(x + 2) $
+	$$(x - 5)(x - 2)(x + 2)$$
 
 	- Thus positive integer roots for the given polynomial, are $(x - 5) = 0$ and $(x - 2) = 0$ which are `5` and `2`.
 
