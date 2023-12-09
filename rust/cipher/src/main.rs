@@ -28,16 +28,17 @@ fn encrypt(_s: &String, _shift: u8) -> String {
     let chars: Vec<char> = _s.to_lowercase().chars().collect();
     let mut cipher: String = String::new();
     for c in chars.iter() {
-        cipher.push((((*c as u8 - 97 + _shift)%26) + 97) as char);
+        cipher.push((((*c as u8 - 97 + _shift) % 26) + 97) as char);
     }
     cipher
 }
 
 fn decrypt(_s: &String, _shift: u8) -> String {
+    // TODO: additive inverse for shift key
     let chars: Vec<char> = _s.to_lowercase().chars().collect();
     let mut cipher: String = String::new();
     for c in chars.iter() {
-        cipher.push((((*c as u8 - 97 + _shift)%26) + 97) as char);
+        cipher.push((((*c as u8 - 97 + _shift) % 26) + 97) as char);
     }
     cipher
 }
