@@ -20,6 +20,11 @@ zkEVM is a virtual machine designed and developed to emulate the EVM by recreati
 - RISC-V: Reduced Instruction Set Computer, fifth generation
 - DSL: Domain specific Language
 - R1CS: Rank-1 Constraint System
+- PP: Public Parameter
+- PK: Proving key
+- VK: Verifying key
+- SMT: Sparse Merkel Tree
+- PCS: Polynomial Commitment scheme
 
 ## Definition:
 
